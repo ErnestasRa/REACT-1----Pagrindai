@@ -1,5 +1,16 @@
 @import 'variables';
 
-.container {
+.btn {
     background: $color-secondary;
+}
+
+@each $color-name, $color-value in $colors-map {
+    .#{$color-name} {
+        background-color: $color-value;
+
+        &:hover{
+            cursor:pointer;
+            background-color: darken($color-value, 10);
+        }
+    }
 }

@@ -1,2 +1,11 @@
-$color-primary: rgb(127, 235, 55);
-$color-secondary: rgb(247, 193, 17);
+$color-primary: #7feb37;
+$color-secondary: #6200ff;
+$color-error: #f51d0d;
+$color-warning: #f7c111;
+
+$colors-map: (
+    "primary": $color-primary,
+    "secondary": $color-secondary,
+    "error": $color-error,
+    "warning": $color-warning,
+)

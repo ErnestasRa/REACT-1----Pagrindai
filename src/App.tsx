@@ -6,10 +6,11 @@ const App: React.FC = () => {
     return (
       <main>
         <h1>Mano pirmoji aplikacija</h1>
-        <Button>Pirmas</Button>
-        <Button>Antras</Button>
-        <Button>Trecias</Button>
-        <TextField></TextField>
+        <Button color='warning'>Pirmas</Button>
+        <Button color='error'>Antras</Button>
+        <Button color='secondary'>Trecias</Button>
+        <Button color='primary'>Ketvirtas</Button>
+        <TextField color='secondary'></TextField>
       </main>
     )
   ;
