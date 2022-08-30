@@ -1,0 +1,6 @@
+funkcinis komponentas - tai yra funkcija, kuri grazina JSX. Funkcinis komponentas turi grazinti VIENA TEVINI JSX elementa.Jeigu norite grazinti daugiau nei viena elementa, turite apgaubti grazinamus JSX elementus React.Frament'u. Sutrumpinta React.Fragment sintakse yra - <></>
+
+
+Props - tai komponentui perduodama informacija. Komponento naudojimo metu, propsai perduodami lyg HTML elemento atributa. Sie atributai perduodami i Funkcinio komponento pirmaji parametra objecto pavidalu. Kiekvienas atributas idedamas i pirmaji parametra - objektu komponento aprasyme (). Naudojant Typescript, privaloma aprasyti props tipus. Dazniausiai tai daroma naudojant React.FC<KomponentoPropsTipas>.
+
+children - tai komponento panaudojime esantis turinys tarp komponento atidarymo ir uzdarymo. Sis turinys yra perduodamas kaip prop'sas. Kuriant savo prop'sus STIPRIAI nepatartina naudoti prop'so pavadinimo children, nes kiti programuotojai ji gali suprasti kaip turini, esanti tarp atidarymo ir uzdarymo
