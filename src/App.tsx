@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './components/button';
+import TextField from './components/text-field';
 
 const App: React.FC = () => {
     return (
@@ -8,6 +9,7 @@ const App: React.FC = () => {
         <Button>Pirmas</Button>
         <Button>Antras</Button>
         <Button>Trecias</Button>
+        <TextField></TextField>
       </main>
     )
   ;
